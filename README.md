@@ -1,24 +1,17 @@
 # ACM-W BPHC — Domain Pages
 
-Subject-domain pages for the ACM-W BITS Pilani Hyderabad Campus chapter website. Each page covers one learning track (e.g. **Machine Learning & AI**) with study resources, domain projects, and mentor info — matching the theme of the chapter's main site (`index.html`).
+A sample of the Subject-domain pages for the ACM-W BPHC chapter website. Each page covers one learning track (e.g. **Machine Learning & AI**) with study resources, domain projects, and mentor info — matching the theme of the chapter's main site . This repo has the files fo the ML domain
 
 ## What's in here
 
 | File | Purpose |
 |---|---|
-| `ml-ai.html` | Domain page for Machine Learning & AI — name, blurb, resources, projects, mentors |
+| `index.html` | Domain page for Machine Learning & AI — name, blurb, resources, projects, mentors |
 | `study.html` | Reusable template that renders study material for **any** topic, based on a URL parameter |
-| `domain-page.css` | Styles for resource cards, project flip cards, and mentor cards — built on the color/font variables already defined in `style.css` |
-| `domain-page.js` | Header behavior for these standalone pages (theme toggle, mobile nav, domains dropdown) plus flip-card click/tap handling |
-| `study.js` | Topic → content lookup used by `study.html` |
+| `style.css` | Styles for resource cards, project flip cards, and mentor cards — built on the color/font variables already defined in the homepage |
+| `script.js` | Header behavior for these standalone pages (theme toggle, mobile nav, domains dropdown) plus flip-card click/tap handling |
+| `study-script.js` | Topic → content lookup used by `study.html` |
 
-These pages depend on the main site's `style.css` (for design tokens like `--ink`, `--magenta`, fonts, etc.) — they don't duplicate it.
-
-## Setup
-
-1. Copy all five files into the same folder as the main site's `index.html`, `style.css`, and `script.js`.
-2. Open `ml-ai.html` in a browser to check it — no build step needed, everything is static HTML/CSS/JS.
-3. Note: `script.js` from the homepage is **not** loaded on these pages. It's built around `index.html`'s single-page tab system and calendar, and isn't needed here. `domain-page.js` covers what these pages actually use (theme toggle, nav, dropdown, flip cards).
 
 ## How the study material template works
 
@@ -64,8 +57,3 @@ Resource cards link to `study.html?topic=<slug>`, e.g.:
 - Placeholder project images use [placehold.co](https://placehold.co) — swap in real project screenshots when available.
 - Flip cards work on click/tap and keyboard (Enter/Space), not just hover, so they behave the same on mobile and desktop.
 
-## Known follow-ups
-
-- Nav links point to `index.html#about`, `index.html#events`, etc. — confirm this matches the actual filename of the homepage in the deployed repo.
-- `domainHref` values in `study.js` currently only point to `ml-ai.html`. Update them as new domain pages are added.
-- Replace lorem ipsum in `study.js` with real study content per topic.
