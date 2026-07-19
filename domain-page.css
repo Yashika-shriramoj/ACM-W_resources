@@ -99,11 +99,11 @@
    next to the intro text (unlike the homepage's hero),
    so the title + blurb are centered and widened to use
    the full container instead of hugging the left side. */
-.page-hero--center{text-align:center; padding-bottom:12px;}
+.page-hero--center{text-align:left; padding-bottom:12px;}
 .page-hero--center .back-link{
   display:inline-flex; text-align:left;
 }
-.page-hero--center .eyebrow{justify-content:center;}
+.page-hero--center .eyebrow{justify-content:left;}
 .page-hero--center .page-hero-sub{
   max-width:70ch;
   margin-left:auto;
