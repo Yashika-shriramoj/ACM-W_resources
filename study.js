@@ -7,35 +7,35 @@
    ===================================================== */
 
 const TOPICS = {
-  "python-for-ml": {
-    domainLabel: "Machine Learning & AI",
-    domainHref: "ml-ai.html",
-    title: "Python for ML",
-    intro: "The core Python toolkit — NumPy, pandas and plotting — that every ML notebook in this domain builds on.",
+  "complexity": {
+    domainLabel: "Competitive Coding",
+    domainHref: "index.html",
+    title: "Time & Space Complexity",
+    intro: "Big-O basics and how to reason about whether a solution will actually run in time.",
   },
-  "supervised-learning": {
-    domainLabel: "Machine Learning & AI",
-    domainHref: "ml-ai.html",
-    title: "Supervised Learning",
-    intro: "Regression and classification, and the math that underpins both.",
+  "arrays-strings": {
+    domainLabel: "Competitive Coding",
+    domainHref: "index.html",
+    title: "Arrays & Strings",
+    intro: "Two pointers, sliding window, and prefix sums — the bread and butter of easy-medium problems.",
   },
-  "neural-networks": {
-    domainLabel: "Machine Learning & AI",
-    domainHref: "ml-ai.html",
-    title: "Neural Networks & Deep Learning",
-    intro: "Perceptrons, backpropagation, and building your first deep learning model.",
+  "graphs-trees": {
+    domainLabel: "Competitive Coding",
+    domainHref: "index.html",
+    title: "Graphs & Trees",
+    intro: "BFS, DFS, shortest paths, and traversal patterns that show up in half of all contest problems.",
   },
-  "nlp": {
-    domainLabel: "Machine Learning & AI",
-    domainHref: "ml-ai.html",
-    title: "Natural Language Processing",
-    intro: "Tokenization, embeddings, and how machines make sense of text.",
+  "dynamic-programming": {
+    domainLabel: "Competitive Coding",
+    domainHref: "index.html",
+    title: "Dynamic Programming",
+    intro: "Recognizing overlapping subproblems and building up from brute force to an optimal solution.",
   },
-  "mlops": {
-    domainLabel: "Machine Learning & AI",
-    domainHref: "ml-ai.html",
-    title: "Model Deployment & MLOps",
-    intro: "Taking a model from a notebook to a service other people can actually use.",
+  "contest-strategy": {
+    domainLabel: "Competitive Coding",
+    domainHref: "index.html",
+    title: "Contest Strategy & STL",
+    intro: "Templates, fast I/O, the STL/standard library shortcuts, and how to pace a contest.",
   },
 };
 
