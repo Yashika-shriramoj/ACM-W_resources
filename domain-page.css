@@ -99,7 +99,7 @@
    next to the intro text (unlike the homepage's hero),
    so the title + blurb are centered and widened to use
    the full container instead of hugging the left side. */
-.page-hero--center{text-align:center;}
+.page-hero--center{text-align:center; padding-bottom:12px;}
 .page-hero--center .back-link{
   display:inline-flex; text-align:left;
 }
@@ -109,6 +109,13 @@
   margin-left:auto;
   margin-right:auto;
 }
+
+/* Resources is the first .section right after the hero on this
+   page — trim its top padding so the hero doesn't feel so far
+   from it (the default 84px top padding assumes a hero above it
+   with its own bottom padding already, which stacks up too much
+   space here). */
+#resources{padding-top:32px;}
 
 /* ---------- study material page ---------- */
 .study-content{max-width:70ch; margin:0 auto;}
