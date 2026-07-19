@@ -99,9 +99,9 @@
    next to the intro text (unlike the homepage's hero),
    so the title + blurb are centered and widened to use
    the full container instead of hugging the left side. */
-.page-hero--center{padding-bottom:12px;}
+.page-hero--center{padding-bottom:8px;}
 .page-hero--center .page-hero-sub{
-  max-width:70ch;
+  max-width:100ch;
 }
 
 /* Resources is the first .section right after the hero on this
